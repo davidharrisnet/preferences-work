@@ -1,0 +1,8 @@
+
+
+SERVER_SSL_ENABLED=false SERVER_SERVLET_SESSION_COOKIE_SECURE=false OPENAPI_SERVER_URL=http://localhost:8080 ./gradlew bootRun
+
+
+
+npx ng serve --host localhost --port 4200 --ssl=false --proxy-config proxy.localhost.json
+
